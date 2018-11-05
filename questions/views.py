@@ -14,4 +14,4 @@ def questions_detail(request, question_id):
     return render(request, 'questions_detail.html', {'question': get_object_or_404(Question, pk=question_id)})
 
 def questions_list(request):
-    return render(request, 'questions_list.html', {'question': get_object_or_404(Question)})
+    return render(request, 'base.html', {'question': get_object_or_404(Question)})
