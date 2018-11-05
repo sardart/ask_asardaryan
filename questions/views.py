@@ -10,8 +10,16 @@ class QuestionList(ListView):
     paginate_by = 1
 
 
-def questions_detail(request, question_id):
-    return render(request, 'questions_detail.html', {'question': get_object_or_404(Question, pk=question_id)})
 
-def questions_list(request):
-    return render(request, 'base.html', {'question': get_object_or_404(Question)})
+def index(request):
+    return render(request, "questions/index.html")
+
+
+def settings(request):
+    return render(request, "questions/settings.html")
+
+def login(request):
+    return render(request, "questions/login.html")
+
+def register(request):
+    return render(request, "questions/register.html")

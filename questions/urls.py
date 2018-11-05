@@ -1,11 +1,14 @@
 from django.urls import path
 
-from questions.views import questions_detail, QuestionList
+from questions.views import QuestionList
 from . import views
 
 urlpatterns = [
-    path('hot/', views.questions_list, name='questions_list'),
-    path('<int:question_id>/', questions_detail, name='questions_detail'),
+    path('', views.index, name="index"),
+    path("settings/", views.settings, name="settings"),
+    path("login/", views.login, name="settings"),
+    path("register/", views.register, name="settings")
+
 ]
 
 
