@@ -1,5 +1,21 @@
-{% extends "base.html" %}
+{% extends 'base.html' %}
+{% load static %}
 
 {% block content %}
+    <div class="row">
+           <div class="col-4">
+                <h2>New Questions</h2>
+           </div>
+            <div class="col-8">
+                <a href="#">Hot Questions</a>
+            </div>
+    </div>
+    {% for question in questions %}
+       {% include "questions/question.html" %}
+    {% endfor %}
 
+{% endblock %}
+
+{% block pagination %}
+    {% include "questions/pagination.html" %}
 {% endblock %}

@@ -1,6 +1,5 @@
 from django.contrib import admin
 
-
 from questions.models import User, Question, Tag
 # Register your models here.
 

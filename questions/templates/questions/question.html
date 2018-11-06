@@ -1,0 +1,32 @@
+{% load static %}
+
+<div class="border my-3 rounded shadow-sm row">
+    <div class="col-md-3">
+        <div class="row justify-content-center">
+            <img class="avatar rounded" src={% static "img/user.png" %}  >
+        </div>
+    </div>
+
+    <div class="col-md-9">
+        <div class="row">
+            <h3><a href=#>{{ question.title }}</a></h3>
+        </div>
+        <div class="row">
+            <p>{{ question.text }}</p>
+        </div>
+        <div class="row mb-0">
+            <div class="col-4">
+                <a href=#>answer({{ question.answers_count}})</a>
+            </div>
+            <div class="col-8">
+                Tags:
+                {% for tag in question.tags.all %}
+                    <a href="#">{{ tag.title }}</a>
+                {% endfor %}
+            </div>
+            <div class="row justify-content-center">
+                {{ question.rating }}
+            </div>
+        </div>
+    </div>
+</div>
