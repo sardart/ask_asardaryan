@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98e5e9c7-e743-401b-9b5a-7ccdf794ba5c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/questions/management/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/questions/management/commands/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/questions/management/commands/faker.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/questions/templates/questions/ask.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/questions/templates/questions/hot.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/questions/templates/questions/pagination.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/questions/templates/questions/question.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/requirements.txt" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/ask_asardaryan/settings.py" afterPath="$PROJECT_DIR$/ask_asardaryan/settings.py" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change beforePath="$PROJECT_DIR$/questions/admin.py" afterPath="$PROJECT_DIR$/questions/admin.py" />
-      <change beforePath="$PROJECT_DIR$/questions/models.py" afterPath="$PROJECT_DIR$/questions/models.py" />
-      <change beforePath="$PROJECT_DIR$/questions/templates/base.html" afterPath="$PROJECT_DIR$/questions/templates/base.html" />
-      <change beforePath="$PROJECT_DIR$/questions/templates/questions/index.html" afterPath="$PROJECT_DIR$/questions/templates/questions/index.html" />
-      <change beforePath="$PROJECT_DIR$/questions/templates/questions/login.html" afterPath="$PROJECT_DIR$/questions/templates/questions/login.html" />
-      <change beforePath="$PROJECT_DIR$/questions/templates/questions/settings.html" afterPath="$PROJECT_DIR$/questions/templates/questions/settings.html" />
-      <change beforePath="$PROJECT_DIR$/questions/urls.py" afterPath="$PROJECT_DIR$/questions/urls.py" />
-      <change beforePath="$PROJECT_DIR$/questions/views.py" afterPath="$PROJECT_DIR$/questions/views.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -72,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="faker.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="faker.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/questions/management/commands/faker.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="50" column="50" lean-forward="true" selection-start-line="50" selection-start-column="50" selection-end-line="50" selection-end-column="50" />
+            <state relative-caret-position="379">
+              <caret line="45" column="63" lean-forward="true" selection-start-line="45" selection-start-column="63" selection-end-line="45" selection-end-column="63" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -84,11 +68,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ask_asardaryan/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="514">
-              <caret line="126" column="0" lean-forward="false" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
+            <state relative-caret-position="330">
+              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -97,8 +81,8 @@
       <file leaf-file-name="db.sqlite3" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db.sqlite3">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12660">
-              <caret line="852" column="1" lean-forward="true" selection-start-line="852" selection-start-column="1" selection-end-line="852" selection-end-column="1" />
+            <state relative-caret-position="12780">
+              <caret line="860" column="1" lean-forward="true" selection-start-line="860" selection-start-column="1" selection-end-line="860" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -107,8 +91,8 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/questions/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="30" column="25" lean-forward="true" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+            <state relative-caret-position="480">
+              <caret line="32" column="15" lean-forward="true" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -166,7 +150,6 @@
       <list>
         <option value="$PROJECT_DIR$/static/css/styles.css" />
         <option value="$PROJECT_DIR$/questions/templates/questions/register.html" />
-        <option value="$PROJECT_DIR$/ask_asardaryan/settings.py" />
         <option value="$PROJECT_DIR$/ask_asardaryan/urls.py" />
         <option value="$PROJECT_DIR$/questions/urls.py" />
         <option value="$PROJECT_DIR$/questions/templates/questions/login.html" />
@@ -186,6 +169,7 @@
         <option value="$PROJECT_DIR$/questions/views.py" />
         <option value="$PROJECT_DIR$/questions/templates/questions/question.html" />
         <option value="$PROJECT_DIR$/questions/management/commands/faker.py" />
+        <option value="$PROJECT_DIR$/ask_asardaryan/settings.py" />
       </list>
     </option>
   </component>
@@ -368,7 +352,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31197098" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -602,8 +586,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db.sqlite3">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12660">
-          <caret line="852" column="1" lean-forward="true" selection-start-line="852" selection-start-column="1" selection-end-line="852" selection-end-column="1" />
+        <state relative-caret-position="12780">
+          <caret line="860" column="1" lean-forward="true" selection-start-line="860" selection-start-column="1" selection-end-line="860" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -613,24 +597,6 @@
         <state relative-caret-position="150">
           <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ask_asardaryan/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="126" column="0" lean-forward="false" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/questions/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="30" column="25" lean-forward="true" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -654,11 +620,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/questions/management/commands/faker.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="50" column="50" lean-forward="true" selection-start-line="50" selection-start-column="50" selection-end-line="50" selection-end-column="50" />
+        <state relative-caret-position="379">
+          <caret line="45" column="63" lean-forward="true" selection-start-line="45" selection-start-column="63" selection-end-line="45" selection-end-column="63" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/questions/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="15" lean-forward="true" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ask_asardaryan/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
